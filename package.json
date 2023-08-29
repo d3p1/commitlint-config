@@ -24,11 +24,15 @@
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "husky": "^8.0.3",
-    "semantic-release": "^21.1.1"
+    "semantic-release": "^21.1.1",
+    "write-good": "^1.0.8"
   },
   "files": [
     "commitlint.config.js",
     "commitlint.parser.js",
     "release.config.js"
-  ]
+  ],
+  "scripts": {
+    "lint:spelling": "write-good --no-passive"
+  }
 }
