@@ -1,0 +1,20 @@
+{
+  "name": "@d3p1/commitlint-config-conventional",
+  "version": "0.0.0",
+  "description": "An extension of the commitlint conventional config that validates the addition of an issue number",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d3p1/commitlint-config-conventional.git"
+  },
+  "keywords": [
+    "commitlint",
+    "commitlint-config",
+    "conevntional-commits"
+  ],
+  "author": "Cristian Marcelo de Picciotto <d3p1@d3p1.dev> (https://d3p1.dev/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/d3p1/commitlint-config-conventional/issues"
+  },
+  "homepage": "https://github.com/d3p1/commitlint-config-conventional#readme"
+}
