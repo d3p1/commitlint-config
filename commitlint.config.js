@@ -1,5 +1,5 @@
 /**
- * @description Configuration for commitlint
+ * @description Configuration for `commitlint`
  * @author      Cristian Marcelo de Picciotto <d3p1@d3p1.dev>
  * {@link       https://commitlint.js.org/}   
  * {@link       https://www.conventionalcommits.org/en/v1.0.0/}
