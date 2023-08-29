@@ -47,7 +47,15 @@ jobs:
           node-version: 
             "lts/*"
       - name: 
-          Release
+          Install dependencies
+        run: 
+          npm clean-install
+      - name: 
+          Verify installed dependencies
+        run: 
+          npm audit signatures
+      - name: 
+          Generate release
         env:
           GITHUB_TOKEN: 
             ${{ secrets.GITHUB_TOKEN }}
