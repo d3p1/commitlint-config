@@ -5,14 +5,8 @@
  * {@link       https://www.conventionalcommits.org/en/v1.0.0/}
  */
 module.exports = {
-    /**
-     * @note Resolve and load `@commitlint/config-conventional` 
-     *       from `node_modules`
-     */
-    extends: ['@commitlint/config-conventional'],
-
-    /**
-     * @note Add parser preset
-     */
-    parserPreset: './commitlint.parser.js'
-};
+     /**
+      * @note Load `@commitlint/config-conventional` configuration
+      */
+     extends: ['./src/index.js']
+}

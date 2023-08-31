@@ -32,10 +32,10 @@
     "write-good": "^1.0.8"
   },
   "files": [
-    "commitlint.config.js",
-    "commitlint.parser.js",
-    "release.config.js"
+    "./src/index.js",
+    "./src/commitlint.parser.js"
   ],
+  "main": "./src/index.js",
   "scripts": {
     "lint:spelling": "write-good --no-passive"
   }
