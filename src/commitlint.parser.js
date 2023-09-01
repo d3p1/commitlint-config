@@ -5,8 +5,9 @@
  * {@link       https://commitlint.js.org/#/reference-configuration?id=parser-presets}
  */
 module.exports = {
-    parserOpts: {
+  // prettier-ignore
+  parserOpts: {
         headerPattern       : /^(\w+)\(?(\w*)\)?:\s(.+)\s\[(.+)\]$/,
-        headerCorrespondence: ['type', 'scope', 'subject', 'ticket'],
+        headerCorrespondence: ['type', 'scope', 'subject', 'ticket']
     }
 };
