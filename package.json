@@ -18,9 +18,11 @@
     "url": "https://github.com/d3p1/commitlint-config-conventional/issues"
   },
   "homepage": "https://github.com/d3p1/commitlint-config-conventional",
-  "devDependencies": {
+  "dependencies": {
     "@commitlint/cli": "^17.7.1",
-    "@commitlint/config-conventional": "^17.7.0",
+    "@commitlint/config-conventional": "^17.7.0"
+  },
+  "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "eslint": "^8.48.0",
