@@ -31,7 +31,7 @@ Where:
 Install [commitlint](https://commitlint.js.org/#/guides-local-setup) and this configuration:
 
 ```
-npm install --save-dev  @commitlint/cli @d3p1/commitlint-config-conventional
+npm install --save-dev @commitlint/cli @d3p1/commitlint-config-conventional
 ```
 
 Then, extend this configuration from your [commitlint configuration object](https://commitlint.js.org/#/reference-configuration?id=configuration-object-example) using the `extends` option. For example, create in the root of your project a `commitlint.config.js` file with the following content:
@@ -47,7 +47,7 @@ Also, to be able to validate your commit messages in your environment, install a
 ```
 npm install --save-dev husky
 npx husky install
-npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
+npx husky add .husky/commit-msg 'npx --no -- commitlint --edit ${1}'
 ```
 
 And you are ready to go! From now on, all messages from your commits will be validated to ensure they adhere to the format:
