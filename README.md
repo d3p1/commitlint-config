@@ -2,6 +2,11 @@
 
 # [CONVENTIONAL COMMITS PARSER]
 
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+[![semantic-release: angular](https://img.shields.io/badge/semantic--release-angular-e10079?logo=semantic-release)](https://github.com/semantic-release/semantic-release)
+[![Release](https://github.com/d3p1/commitlint-config-conventional/actions/workflows/release.yml/badge.svg)](https://github.com/d3p1/commitlint-config-conventional/actions/workflows/release.yml)
+[![CodeQL](https://github.com/d3p1/commitlint-config-conventional/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/d3p1/commitlint-config-conventional/actions/workflows/github-code-scanning/codeql)
+
 </div>
 
 ## Introduction
@@ -51,14 +56,17 @@ And you are ready to go! From now on, all messages from your commits will be val
 <type>(<scope>): <description> [<issue-number>]
 ```
 
+## Changelog
+
+Detailed changes for each release are documented in [CHANGELOG.md](./CHANGELOG.md).
+
+## License
+
+This work is published under [MIT License](license).
+
 ## Author
 
 Always happy to receive a greeting on:
 
 - [LinkedIn](https://www.linkedin.com/in/cristian-marcelo-de-picciotto/) 
 - [Twitter](https://twitter.com/___d3p1)
-
-
-## License
-
-This work is published under [MIT License](license).
