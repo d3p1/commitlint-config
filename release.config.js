@@ -1,6 +1,6 @@
 /**
  * @description Configuration for `semantic-release`
- * @author      Cristian Marcelo de Picciotto <d3p1@d3p1.dev>
+ * @author      C. M. de Picciotto <d3p1@d3p1.dev> (https://d3p1.dev/)
  * {@link       https://semantic-release.gitbook.io/semantic-release/}
  * {@link       https://semantic-release.gitbook.io/semantic-release/usage/configuration}
  */

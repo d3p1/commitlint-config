@@ -1,6 +1,6 @@
 /**
  * @description Configuration for `prettier`
- * @author      Cristian Marcelo de Picciotto <d3p1@d3p1.dev>
+ * @author      C. M. de Picciotto <d3p1@d3p1.dev> (https://d3p1.dev/)
  * {@link       https://prettier.io/}
  * {@link       https://prettier.io/docs/en/options}
  */
