@@ -62,7 +62,7 @@ Detailed changes for each release are documented in [`CHANGELOG.md`](./CHANGELOG
 
 ## License
 
-This work is published under [MIT License](license).
+This work is published under [MIT License](./LICENSE).
 
 ## Author
 
