@@ -34,6 +34,7 @@ jobs:
           fetch-depth: 0
 
       - name: Generate release
-        uses: d3p1/semantic-release-action@1.4.5
+        uses: d3p1/semantic-releasify@v1
         env :
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN   : ${{ secrets.NPM_TOKEN }}
