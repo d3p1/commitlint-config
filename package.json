@@ -1,6 +1,6 @@
 {
   "name": "@d3p1/commitlint-config",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "An extension of the commitlint conventional config that validates the addition of an issue number",
   "private": false,
   "publishConfig": {
