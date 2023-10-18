@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/d3p1/commitlint-config/compare/v1.0.0...v1.0.1) (2023-10-18)
+
+
+### Bug Fixes
+
+* remove pull request event from release workflow [[#1](https://github.com/d3p1/commitlint-config/issues/1)] ([7e11337](https://github.com/d3p1/commitlint-config/commit/7e11337bf3d982d33b1832d51890156c4acd8c6f))
+
 # 1.0.0 (2023-09-06)
 
 
