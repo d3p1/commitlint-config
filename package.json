@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "An extension of the commitlint conventional config that validates the addition of an issue number",
   "private": false,
-  "publishConfig": {
-    "access": "public"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/d3p1/commitlint-config.git"
@@ -20,18 +17,16 @@
   "bugs": {
     "url": "https://github.com/d3p1/commitlint-config/issues"
   },
-  "homepage": "https://github.com/d3p1/commitlint-config",
+  "homepage": "https://github.com/d3p1/commitlint-config#readme",
   "dependencies": {
     "@commitlint/cli": "^17.7.1",
     "@commitlint/config-conventional": "^17.7.0"
   },
   "devDependencies": {
     "eslint": "^8.48.0",
-    "eslint-config-google": "^0.14.0",
     "eslint-config-prettier": "^9.0.0",
     "husky": "^8.0.3",
-    "prettier": "3.0.3",
-    "write-good": "^1.0.8"
+    "prettier": "3.0.3"
   },
   "files": [
     "./src/index.js",
@@ -39,7 +34,10 @@
   ],
   "main": "./src/index.js",
   "scripts": {
-    "lint:spelling": "write-good --no-passive",
-    "lint:code": "prettier ./src/ --write && eslint ./src/ --fix"
+    "lint:code": "eslint --ignore-path .gitignore --ext .js,.ts src",
+    "lint:code:fix": "npm run lint:code -- --fix",
+    "format:code": "prettier --ignore-path .gitignore --check src",
+    "format:code:fix": "npm run format:code -- --write",
+    "refactor": "npm run format:code:fix && npm run lint:code:fix"
   }
 }

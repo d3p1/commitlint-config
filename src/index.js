@@ -13,5 +13,5 @@ module.exports = {
   /**
    * @note Add parser preset
    */
-  parserPreset: './commitlint.parser.js'
-};
+  parserPreset: './commitlint.parser.js',
+}
