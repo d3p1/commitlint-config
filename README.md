@@ -50,6 +50,10 @@ npx husky install
 npx husky add .husky/commit-msg 'npx --no -- commitlint --edit ${1}'
 ```
 
+> **Note**
+>
+> Starting from `husky@v9` instead of `npx husky add .husky/commit-msg 'npx --no -- commitlint --edit ${1}'` use `echo "npx --no -- commitlint --edit \$1" > .husky/commit-msg`
+
 And you are ready to go! From now on, all messages from your commits will be validated to ensure they adhere to the format:
 
 ```
