@@ -54,6 +54,10 @@ npx husky add .husky/commit-msg 'npx --no -- commitlint --edit ${1}'
 >
 > Starting from `husky@v9`, the initialization and installation command needs to be modified. Instead of `npx husky install` and `npx husky add .husky/commit-msg 'npx --no -- commitlint --edit ${1}'`, use `npx husky init` and `echo "npx --no -- commitlint --edit \$1" > .husky/commit-msg`.
 
+> **Note**
+>
+> The `npx husky init` command could create a `pre-commit` hook (`.husky/commit-msg`) that may not be needed and could cause errors. It could be removed manually. Also, instead of executing `npx husky init` and `echo "npx --no -- commitlint --edit \$1" > .husky/commit-msg`, it is possible to execute `npx husky` and `echo "npx --no -- commitlint --edit \$1" > .husky/commit-msg` to avoid the creation of the `pre-commit` hook.  
+
 And you are ready to go! From now on, all messages from your commits will be validated to ensure they adhere to the format:
 
 ```
