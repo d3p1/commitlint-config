@@ -23,6 +23,7 @@ jobs:
       contents     : write 
       issues       : write 
       pull-requests: write
+      id-token     : write
 
     steps:
       - name: Checkout
@@ -34,4 +35,3 @@ jobs:
         uses: d3p1/semantic-releasify@v1
         env :
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN   : ${{ secrets.NPM_TOKEN }}
